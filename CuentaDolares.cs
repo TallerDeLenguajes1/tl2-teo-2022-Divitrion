@@ -1,6 +1,6 @@
 public class CuentaDolares : Cuenta
 {
-    public void extraer(int monto, TipoExtraccion tipo)
+    public override void extraer(int monto, TipoExtraccion tipo)
     {
         int dolaresExtraidos=0;
         DateTime today= DateTime.Today;

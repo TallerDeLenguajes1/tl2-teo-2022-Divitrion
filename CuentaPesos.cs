@@ -1,6 +1,6 @@
 class CuentaPesos : Cuenta
 {
-    public void extraer(int monto, TipoExtraccion tipo)
+    public override void extraer(int monto, TipoExtraccion tipo)
     {
         if (plata - monto < -5000)
         {
